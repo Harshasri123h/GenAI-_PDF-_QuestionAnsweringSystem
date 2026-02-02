@@ -1,4 +1,9 @@
-# PDF RAG ChatBot with Llama2 and Gradio
+# 📄 GenAI PDF Question Answering System
+📌 Overview
+
+Large documents such as reports, policies, and study materials are often difficult to search and analyze efficiently. Manually reading PDFs to find specific information is time-consuming and error-prone.
+
+This project implements a Generative AI–based PDF Question Answering System that enables users to upload PDF documents and ask natural language questions to quickly retrieve relevant, context-aware answers.
 ![image](https://github.com/Niez-Gharbi/PDF-RAG-with-Llama2-and-Gradio/assets/57814219/29efb4c9-1f15-479a-a57b-34bdd2085068)
 
 
@@ -10,6 +15,21 @@ PDFChatBot is a Python-based chatbot designed to answer questions based on the c
 * ChromaDB
 * Hugging Face
 * Gradio
+🎯 Problem Statement
+
+Business users and students frequently need to extract specific insights from large PDF documents. Traditional keyword search fails to capture context and meaning, making information retrieval inefficient.
+
+💡 Solution
+
+This application uses a Retrieval-Augmented Generation (RAG) approach to:
+
+Process PDF documents
+
+Retrieve the most relevant content using semantic search
+
+Generate accurate answers using a Large Language Model (LLM)
+
+The system combines document retrieval with generative AI to provide reliable, context-aware responses.
 
 ## Features ⭐
 * Process PDF files and extract information for answering questions.
